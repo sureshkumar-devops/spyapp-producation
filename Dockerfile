@@ -1,5 +1,5 @@
 FROM adoptopenjdk/openjdk11
-ENV APP_HOME /spyapp-producation
+ENV APP_HOME /spy-app-prod
 WORKDIR $APP_HOME
 COPY target/*.jar $APP_HOME/app.jar
 EXPOSE 8080
